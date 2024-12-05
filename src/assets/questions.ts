@@ -1,187 +1,131 @@
 export const questions = [
   {
-    text: "Who is known as the 'Master Blaster' in cricket?",
+    text: "Quelle est la similitude entre les poumons humains et les océans ?",
     options: [
-      'Sachin Tendulkar',
-      'Ricky Ponting',
-      'Brian Lara',
-      'Jacques Kallis',
+      "Ils produisent de l'oxygène",
+      'Ils régulent la température',
+      "Ils contiennent de l'eau",
+      "Ils facilitent l'échange de gaz",
     ],
-    answer: 0, // Sachin Tendulkar
+    answer: 3, // Ils facilitent l'échange de gaz
   },
   {
-    text: 'Which country won the first-ever Cricket World Cup?',
-    options: ['West Indies', 'Australia', 'England', 'India'],
-    answer: 0,
+    text: 'Quel rôle les vaisseaux sanguins jouent-ils dans le corps humain, semblable aux courants océaniques ?',
+    options: ['Équilibre thermique',
+       'Transport des nutriments', 
+       ' Transport des déchets',
+        "Circulation de l'eau"],
+    answer: 1,
   },
   {
-    text: 'Who holds the record for the fastest century in One Day Internationals (ODIs)?',
+    text: 'Quel organe humain fonctionne de manière similaire à un écosystème marin ?',
     options: [
-      'AB de Villiers',
-      'Shahid Afridi',
-      'Chris Gayle',
-      'Corey Anderson',
+    " Le cœur",
+, "Le cerveau",
+" Le foie","Les reins"
+
     ],
-    answer: 0,
+    answer: 1,
   },
   {
-    text: 'Which player has scored the most runs in Test cricket?',
+    text: " Comment la peau humaine ressemble-t-elle à la surface de l'océan ?",
     options: [
-      'Ricky Ponting',
-      'Sachin Tendulkar',
-      'Jacques Kallis',
-      'Kumar Sangakkara',
+      'Elle régule la température',
+      'Elle protège des rayons UV',
+      'Elle absorbe des nutriments',
+      "Elle produit de l'oxygène",
     ],
-    answer: 1, // Sachin Tendulkar
+    answer: 0, // Elle régule la température
   },
   {
-    text: 'Who has hit the most sixes in the history of IPL (Indian Premier League)?',
-    options: ['MS Dhoni', 'Chris Gayle', 'AB de Villiers', 'Rohit Sharma'],
-    answer: 1, // Chris Gayle
+    text: 'Pourquoi les vagues océaniques sont-elles comparables au mouvement du cœur ?',
+    options: ["Elles produisent de l'énergie", 'Elles transportent des substances', ' Elles régulent la pression', 'Elles affectent le climat'],
+    answer: 1, // Elles transportent des substances
   },
   {
-    text: 'Who has taken the most wickets in international cricket?',
+    text: 'Quel phénomène dans le corps humain est comparable à la montée et la descente des marées ?',
     options: [
-      'Muttiah Muralitharan',
-      'Shane Warne',
-      'Anil Kumble',
-      'James Anderson',
+      'La digestion',
+      'La respiration',
+      'Le rythme cardiaque',
+      'Le cycle hormonal',
     ],
-    answer: 0, // Muttiah Muralitharan
+    answer: 1, // La respiration
   },
   {
-    text: 'Who was the captain of the Indian cricket team when they won the ICC Cricket World Cup in 2011?',
-    options: ['MS Dhoni', 'Sachin Tendulkar', 'Virat Kohli', 'Rahul Dravid'],
-    answer: 0, // MS Dhoni
+    text: "Quel est le rôle des océans dans le cycle de l'eau, similaire au rôle des reins dans le corps humain ?",
+    options: ['Filtrer les toxines', "Maintenir l'équilibre hydrique", "Stocker l'énergie", 'Fournir des nutriments'],
+    answer: 1, //Maintenir l'équilibre hydrique
   },
   {
-    text: 'Which bowler has the best bowling figures in a Test innings?',
+    text: 'Quel élément du corps humain est comparable à la biodiversité des océans ?',
     options: [
-      'Jim Laker',
-      'Anil Kumble',
-      'Muttiah Muralitharan',
-      'Shane Warne',
+      'Les muscles',
+      'Le système nerveux',
+      'Le microbiome intestinal',
+      'Le système circulatoire',
     ],
-    answer: 0, // Jim Laker (10/53)
+    answer: 2, // Le microbiome intestinal
   },
   {
-    text: 'Who is the fastest bowler to reach 100 wickets in ODI cricket?',
-    options: ['Mitchell Starc', 'Saqlain Mushtaq', 'Rashid Khan', 'Shane Bond'],
-    answer: 2, // Rashid Khan
+    text: "Comment les fluides corporels sont-ils similaires à l'eau océanique ?",
+    options: ["Ils transportent de l'oxygène", 'Ils soutiennent la vie', 'Ils sont riches en minéraux', 'Ils régulent le climat'],
+    answer: 1, // Ils soutiennent la vie
   },
   {
-    text: 'Which team has won the most ICC Cricket World Cups?',
-    options: ['Australia', 'West Indies', 'India', 'England'],
-    answer: 0, // Australia (6 titles)
+    text: "Quel élément du corps humain est comparé à la couche d'ozone au-dessus de l'océan ?",
+    options: ['Le système immunitaire', ' La peau', 'Le foie', 'Les poumons'],
+    answer: 0, // Le système immunitaire
   },
   {
-    text: 'Who was the first cricketer to score a double century in One Day Internationals (ODIs)?',
+    text: "Comment les poumons humains et les océans travaillent-ils ensemble pour réduire la pollution de l'air ?",
     options: [
-      'Rohit Sharma',
-      'Sachin Tendulkar',
-      'Virender Sehwag',
-      'Chris Gayle',
+      "En produisant de l'oxygène",
+      'En filtrant les polluants',
+      " En produisant de l'eau",
+      "En stockant le carbone",
     ],
-    answer: 1, // Sachin Tendulkar
+    answer: 1, // En filtrant les polluants
   },
   {
-    text: 'Which player has the highest individual score in Test cricket?',
+    text: 'Quel est le lien entre la protection des océans et la santé humaine ?',
     options: [
-      'Brian Lara',
-      'Matthew Hayden',
-      'Virender Sehwag',
-      'Garfield Sobers',
+      "Les océans fournissent de l'oxygène",
+      "Les océans régulent le climat, ce qui affecte la santé",
+      'La protection des océans aide à préserver les ressources alimentaires',
+      'Toutes les réponses ci-dessus',
     ],
-    answer: 0, // Brian Lara (400*)
+    answer: 3, //Toutes les réponses ci-dessus
   },
   {
-    text: 'Who has the most dismissals as a wicketkeeper in international cricket?',
-    options: ['Mark Boucher', 'MS Dhoni', 'Adam Gilchrist', 'Kumar Sangakkara'],
-    answer: 0, // Mark Boucher
-  },
-  {
-    text: "Which cricketer was known as the 'Sultan of Swing'?",
+    text: "Comment le cœur humain est-il comparable à l’océan ?",
     options: [
-      'Wasim Akram',
-      'Glenn McGrath',
-      'Curtly Ambrose',
-      'Courtney Walsh',
+      "Il pompe le sang comme l’océan régule les courants",
+      "Il produit de l’oxygène",
+      "Il purifie l’eau",
+      "Il est froid et silencieux",
     ],
-    answer: 0, // Wasim Akram
+    answer: 0, //Il pompe le sang comme l’océan régule les courants
   },
   {
-    text: "Which player has won the most 'Man of the Match' awards in Test cricket?",
+    text: "Les tempêtes dans l’océan sont comparables à quel phénomène dans le corps humain ?",
     options: [
-      'Jacques Kallis',
-      'Shane Warne',
-      'Muttiah Muralitharan',
-      'Sachin Tendulkar',
+      'Une fièvre',
+      'Une digestion',
+      "Un rythme cardiaque rapide",
+      'Un éternuement',
     ],
-    answer: 3, // Sachin Tendulkar
+    answer: 0, // Une fièvre
   },
   {
-    text: 'Who was the first bowler to take 800 Test wickets?',
+    text: "Quelle partie du corps peut être comparée à la biodiversité de l’océan ?",
     options: [
-      'Anil Kumble',
-      'Shane Warne',
-      'Muttiah Muralitharan',
-      'James Anderson',
+      'Le microbiome intestinal',
+      'Les muscles',
+      'Les cheveux',
+      'Les dents',
     ],
-    answer: 2, // Muttiah Muralitharan
+    answer: 0, //Le microbiome intestinal
   },
-  {
-    text: 'Who holds the record for the highest partnership in Test cricket?',
-    options: [
-      'Kumar Sangakkara & Mahela Jayawardene',
-      'Sachin Tendulkar & Rahul Dravid',
-      'Chris Gayle & Brian Lara',
-      'Virender Sehwag & Rahul Dravid',
-    ],
-    answer: 0, // Kumar Sangakkara & Mahela Jayawardene (624 runs)
-  },
-  {
-    text: 'Who was the first player to score 10,000 runs in T20 cricket?',
-    options: ['Chris Gayle', 'Brendon McCullum', 'Virat Kohli', 'Rohit Sharma'],
-    answer: 1, // Brendon McCullum
-  },
-  {
-    text: "Who has the most centuries in Women's ODI cricket?",
-    options: [
-      'Charlotte Edwards',
-      'Meg Lanning',
-      'Mithali Raj',
-      'Ellyse Perry',
-    ],
-    answer: 2, // Mithali Raj
-  },
-  {
-    text: 'Who was the first bowler to take a hat-trick in a T20 International?',
-    options: ['Lasith Malinga', 'Brett Lee', 'Rashid Khan', 'Ajantha Mendis'],
-    answer: 0, // Lasith Malinga
-  },
-  {
-    text: 'Who has the best bowling figures in an innings in IPL history?',
-    options: ['Alzarri Joseph', 'Sohail Tanvir', 'Anil Kumble', 'Adam Zampa'],
-    answer: 0, // Alzarri Joseph (6/12)
-  },
-  {
-    text: 'Who scored the fastest century in IPL history?',
-    options: ['KL Rahul', 'Chris Gayle', 'AB de Villiers', 'David Miller'],
-    answer: 0, // KL Rahul (off 51 balls)
-  },
-  {
-    text: 'Who holds the record for the most runs scored in a single IPL season?',
-    options: ['David Warner', 'Chris Gayle', 'Virat Kohli', 'Shane Watson'],
-    answer: 2, // Virat Kohli (973 runs in 2016)
-  },
-  {
-    text: 'Which team has won the least IPL titles?',
-    options: [
-      'Chennai Super Kings',
-      'Mumbai Indians',
-      'Kolkata Knight Riders',
-      'Royal Challengers Bangalore',
-    ],
-    answer: 3, // Royal Challengers Bangalore (0 titles)
-  },
+ 
 ];

@@ -1,34 +1,32 @@
 
   <!-- Screen 1 (For Displaying initial Questions)-->
+   <div><br></div>
   <div *ngIf="screen == 1" class="container">
     <h1 class="heading">Quiz Corps & Océan : Qui Est Le Vrai Jumeau ?</h1>
     <h2 class="sub-heading">Instructions</h2>
     <div class="line"></div>
     <ul class="list">
       <li>Cliquez pour commencer le quiz..</li>
-      <li>Lisez chaque question attentivement..</li>
-      <li>Choose the correct answer from the options.</li>
-      <li>Click the option button for your answer.</li>
-      <li>Navigate through questions using the provided controls.</li>
-      <li>Answer all 10 questions. No time limit .</li>
-      <li>Submit the quiz and view your score.</li>
+      <li>Lisez chaque question attentivement.</li>
+      <li>Choisissez la bonne réponse parmi les options.</li>
+      <li>Cliquez sur le bouton de l'option pour votre réponse.</li>
+      <li>Naviguez à travers les questions en utilisant les contrôles fournis.</li>
+      <li>Répondez à toutes les 10 questions. Aucune limite de temps.</li>
+      <li>Soumettez le quiz et consultez votre score.</li>
     </ul>
-    <button (click)="this.changeScreen(2)" class="btn-start">Start Quiz</button>
+    <button (click)="this.changeScreen(2)" class="btn-start">Commencer le quiz</button>
   </div>
   <!-- Screen 3 (For displaying Quiz Questions) -->
   <div *ngIf="screen == 2" class="container">
-    <h1 class="heading">Quiz</h1>
+    <h1 class="heading">Quiz Corps & Océan</h1>
     <app-quiz (endQuiz)="endQuiz()"></app-quiz>
   </div>
   
   <!-- Screen 4 (For displaying Quiz Result) -->
   <div *ngIf="screen == 3" class="container">
-    <h1 class="heading">Result</h1>
+    <h1 class="heading">Résultat</h1>
     <app-result></app-result>
   </div>
   
-  <footer>
-    <p>YashKS</p>
-    <p>2023 | © All rights reserved.</p>
-  </footer>
+ 
   
