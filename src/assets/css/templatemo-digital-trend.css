@@ -31,12 +31,12 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #057a8d;
-    --secondary-color:      #f1c111;
+    --primary-color:        #050a2e;
+    --secondary-color:      #a46dab;
     --white-color:          #ffffff;
-    --dark-color:           #171819;
+    --dark-color:           #060c3ee7;
     --project-bg:           #f0f8ff;
-    --menu-bg:              #0c8195;
+    --menu-bg:              #050a2e;
 
     --title-color:          #15141a;
     --gray-color:           #909090;
@@ -353,9 +353,10 @@ https://templatemo.com/tm-538-digital-trend
 
   .hero-image {
     position: relative;
-    top: 2em;
-  }
-
+    top: 1em; /* Reduced top offset */
+    max-width: 50%; /* Optional: make the image smaller by limiting its width */
+    height: auto; /* Maintain the aspect ratio */
+}
 
 
   /*---------------------------------------
@@ -460,7 +461,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .client-info img {
-    width: 100px;
+    width: 50px;
     margin-right: 1em;
   }
 
