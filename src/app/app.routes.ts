@@ -5,7 +5,7 @@ import { ResultComponent } from './result/result.component';
 import { MainQuizComponent } from './main-quiz/main-quiz.component';
 
 export const routes: Routes = [
-    { path: 'home', component: HomeComponent },
+    { path: '', component: HomeComponent },
     { path: 'quiz', component: MainQuizComponent },
 
 
