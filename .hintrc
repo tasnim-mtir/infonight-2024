@@ -14,17 +14,21 @@
     "axe/text-alternatives": [
       "default",
       {
-        "document-title": "off"
+        "document-title": "off",
+        "image-alt": "off"
       }
     ],
     "compat-api/css": [
       "default",
       {
         "ignore": [
-          "-webkit-mask"
+          "-webkit-mask",
+          "-moz-backface-visibility",
+          "-webkit-box-reflect"
         ]
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "disown-opener": "off"
   }
 }

@@ -1,14 +1,32 @@
 @import "../../variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+#video-background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensure the video covers the screen without distortion */
+z-index: -1; /* Position the video behind all other content */
+}
 .container {
+  position: absolute;
+  top: 1%; /* Center the content vertically */
+  left: 29%; /* Center the content horizontally */
   background-color: $white;
   width: min(680px, 100%);
   padding: 56px;
   margin: auto;
   border-radius: 16px;
   border: 1px solid $border;
-  position: relative;
+  z-index: 1; /* Ensure it stays above the video */
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+
 .heading {
   font-size: 48px;
   text-align: center;
@@ -42,21 +60,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #video-background {
+    object-fit: fill; /* Adjust the video for smaller screens */
+  }
   /* Tablet */
   .container {
     padding: 24px;
   }
 }
 
-footer {
-    width: 100%;
-    text-align: center;
-    margin: 32px 0;
-    p {
-      color: $black;
-      font-size: 14px;
-      line-height: 2;
-      font-weight: 300;
-    }
-  }
+
   

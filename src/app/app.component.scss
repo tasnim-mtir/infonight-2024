@@ -1,4 +1,6 @@
 @import "./../variables.scss";
+
+
 .container {
   background-color: $white;
   width: min(680px, 100%);
@@ -46,15 +48,5 @@
     padding: 24px;
   }
 }
-footer {
-  width: 100%;
-  text-align: center;
-  margin: 32px 0;
-  p {
-    color: $black;
-    font-size: 14px;
-    line-height: 2;
-    font-weight: 300;
-  }
-}
+
 

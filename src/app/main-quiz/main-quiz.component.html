@@ -1,5 +1,8 @@
 
   <!-- Screen 1 (For Displaying initial Questions)-->
+  <video autoplay muted loop id="video-background">
+    <source src="assets/oceanloop.mp4" type="video/mp4">
+  </video>
    <div><br></div>
   <div *ngIf="screen == 1" class="container">
     <h1 class="heading">Quiz Corps & Océan : Qui Est Le Vrai Jumeau ?</h1>
@@ -27,6 +30,5 @@
     <h1 class="heading">Résultat</h1>
     <app-result></app-result>
   </div>
-  
  
   
