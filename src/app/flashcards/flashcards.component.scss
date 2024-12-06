@@ -29,7 +29,6 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: hsl(220, 10%, 12%);
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -243,7 +242,7 @@ button {
 
 button:hover,
 button:focus {
-  color: var(--primary);
+  color: var(--white);
   background: hsla(var(--hue), 25%, 10%, .2);
   border-color: currentColor;
 }
