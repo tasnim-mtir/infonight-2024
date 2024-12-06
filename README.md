@@ -7,7 +7,9 @@ Fonctionnalités
 Le site web contient les éléments suivants :
 
 Quiz interactif : Un quiz pour tester les connaissances des utilisateurs sur les liens entre l'océan et le corps humain.
+
 Flashcards : Une interface de 6 cartes mémoire pour aider les utilisateurs à retenir les informations clés concernant les similitudes entre les deux systèmes.
+
 Lien vers un podcast : Un lien vers un podcast traitant des sujets liés à la thématique de l'océan et du corps humain.
 
 Technologies utilisées
